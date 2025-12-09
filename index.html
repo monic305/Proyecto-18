@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <h1>🔳 GitHub Repository Finder</h1>
+
+        <!-- SELECTOR DE LENGUAJE -->
+        <select id="languageSelect">
+            <option value="">Select a Language</option>
+        </select>
+
+        <!-- CONTENEDOR DE ESTADOS -->
+        <div id="stateContainer" class="state empty">
+            <p>Please select a language</p>
+        </div>
+
+        <!-- BOTÓN REFRESH -->
+        <button id="refreshBtn" class="hidden">Refresh</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
